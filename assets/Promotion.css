@@ -1,0 +1,252 @@
+.promotion{
+    position: relative;
+    overflow: scroll;
+    height: 100%;
+}
+.promotion header{
+    font-size: .18rem;
+    height: .44rem;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    line-height: .44rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10
+}
+.promotion header i:nth-of-type(1){
+    float: left;
+    margin-left: .1rem;
+    display: block;
+    width: .3rem;
+    height: .3rem;
+    margin-top: .07rem;
+    font-size: .3rem;
+    line-height: 1
+}
+.promotion header i:nth-of-type(2){
+    float: right;
+    margin-right: .07rem;
+    width: .3rem;
+    height: .3rem;
+    margin-top: .07rem;
+    font-size: .15rem;
+    line-height: .3rem;
+}
+.promotion section{
+    padding-top: .44rem;
+    /* height: 100%; */
+}
+.promotion section .clarList li{
+    position: relative
+}
+.promotion section .clarList li img{
+    width: 100%;
+    display: block
+}
+.promotion section .clarList li .filter{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+    
+}
+.promotion section .clarList li .filter .filter-l{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: rgba(0, 0, 0, 0.5)
+}
+.promotion section .clarList li .filter .filter-r{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: rgba(255, 0, 0, 0.5)
+}
+.promotion section .clarList li .app_list{
+    /* width: 100%; */
+    background: url("https://ssl1.sephorastatic.cn/wcsfrontend/campaign/mobile_img/2019/12/ws1205/images/ws1205_08.jpg") repeat-y;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding :0 .075rem;
+
+}
+
+.promotion .router-bottom{
+    top :.44rem
+}
+.promotion section .clarList li .app_list li{
+    width: 49%;
+    /* margin :0 .15rem; */
+    margin-bottom: .075rem;
+    padding-bottom: .075rem;
+    background: #fff;
+    /* float: left; */
+}
+
+.promotion section .clarList li .app_list li a .pro_img{
+    width: 1.57rem;
+    height: 1.57rem;
+    margin:  0 auto;
+}
+.promotion section .clarList li .app_list li a .pro_img img{
+    width: 100%;
+    height: 100%;
+}
+.promotion section .clarList li .app_list li a .pro_brand{
+    font-size: .13rem;
+    line-height: .18rem;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    height: .18rem;
+}
+.promotion section .clarList li .app_list li a .pro_name{
+    font-size: .14rem;
+    text-align: center;
+    line-height: 1.2;
+    height: .35rem;
+    overflow: hidden;
+    margin: 0 .125rem;
+    text-align: center;
+    color : #000000;
+}
+.promotion section .clarList li .app_list li a .pro_name img{
+    width: .245rem;
+    height: .125rem;
+    margin-right: .025rem;
+    margin-bottom: .015rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.promotion section .clarList li .app_list li a .pro_price{
+    margin: .035rem auto;
+    font-size: .14rem;
+    color: #585858;
+    text-align: center;
+    line-height: .17rem;
+    height: .17rem;
+}
+.promotion section .clarList li .app_list li a .pro_price .Price{
+    color: #575757;
+    font-size: .1rem;
+    margin-right: .75rem;
+    line-height: .1rem;
+}
+.promotion section .clarList li .app_list li a .pro_price .offerPrice{
+    font-weight: bold;
+    font-size: .17rem;
+    color: #000000
+}
+.promotion section .clarList li .app_list li a .pro_price .offerPrice em{
+    font-size: .09rem
+}
+.promotion section .clarList li .app_list li a .pro_btn{
+    background: url("http://s1.sephorastatic.cn/wcsfrontend/campaign/mobile_img/2017/03/lipzone20170330/button_0331.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: .8rem;
+    height: .19rem;
+    margin: .075rem auto;
+}
+
+.promotion footer{
+    font-size: .11rem;
+    line-height: 1.2;
+    margin-bottom: .25rem;
+    text-align: center;
+}
+.promotion footer i{
+    color : rgb(102, 102, 102);
+    margin-left:10%;
+}
+
+.promotion footer p{
+    color : #999
+}
+
+.promotion section .goTop{
+    position: fixed;
+    width: 0.89rem;
+    height: 0.89rem;
+    bottom: .5rem;
+    right: 0;
+    z-index: 10;
+    background: url("//s1.sephorastatic.cn/wcsfrontend/campaign/mobile_img/2016/09/newarrival0909/images/topGO2.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.promotion .nav {
+    font-size: .15rem;
+    height: .4rem;
+    width: 100%;
+    border-top : .005rem solid #e1e1e1;
+    border-bottom : .005rem solid #e1e1e1;
+    background: #fff;
+    position: fixed;
+    top: .44rem;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promotion .nav li {
+    width:24%;
+    text-align: center;
+    height: 100%;
+    line-height: .4rem;
+    position: relative;
+}
+.promotion .nav li::before{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top:50%;
+    background: #e1e1e1;
+    width: .005rem;
+    height: .18rem;
+    transform: translateY(-50%);
+}
+.promotion .nav li:nth-last-of-type(1)::before{
+    display: none;
+}
+
+
+
+
+
+.clear_fix:after{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* 分类 */
+.promotion .fenlei{
+    position: fixed;
+    top: .85rem;
+    background: #fff;
+    height: 4.5rem;
+    width: 100%;
+    z-index: 10;
+}
+.promotion .fenlei .flex-wrapper{
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+.promotion .fenlei .flex-wrapper .flex-left{
+    width: 40%;
+    height: 100%;
+    overflow: auto;
+    background: #f4f4f4
+}

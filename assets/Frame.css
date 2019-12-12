@@ -1,0 +1,31 @@
+
+.router-bottom{
+    position: fixed;
+    bottom: 0;
+    height: 0.56rem;
+    border-top: .005rem solid #ccc;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    background: #fff
+}
+.router-bottom li{
+    display: block;
+    width : 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #858585
+}
+.router-bottom li span{
+    font-size: .1rem;
+    line-height: 1;
+    margin-top:.075rem
+}
+.router-bottom li .iconfont{
+    font-size: .2rem;
+    line-height: 1
+    
+}
